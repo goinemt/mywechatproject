@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/sign_in/sign_in",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/get_face/get_face",
+    "pages/res_kaoqin/res_kaoqin",
+    "pages/record/record",
+    "pages/queqing/queqing",
+    "pages/select_ke/select_ke",
+    "pages/about/about",
+    "pages/qingjia/qingjia"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "考勤",
+        "pagePath": "pages/select_ke/select_ke",
+        "iconPath": "images/icons/camera.png",
+        "selectedIconPath": "images/icons/camera-selected.png"
+      },
+      {
+        "text": "记录查询",
+        "pagePath": "pages/record/record",
+        "iconPath": "images/icons/record.png",
+        "selectedIconPath": "images/icons/record-selected.png"
+      },
+      {
+        "text": "改密码",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#oof"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
